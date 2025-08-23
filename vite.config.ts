@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/royal-wood-gallery/', // 👈 Add this line (your repo name)
 });
