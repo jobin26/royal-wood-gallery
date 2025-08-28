@@ -14,7 +14,7 @@ const products: Product[] = [
   id: 1,
   name: "Premium Corner Settee",
   description: "കട്ടിയുള്ള തടി ഉപയോഗിച്ച് നിർമ്മിച്ച സ്പേഷ്യസ് കോണർ സോഫാ, സുഖപ്രദമായ കുഷനുകളോടും കൃതിയായ കൈത്തരിപ്പണിയോടും കൂടെ",
-  image: "/corner_sofa.png",
+  image: "/royal-wood-gallery/corner_sofa.png",
   category: "Living Room"
 }
 ,
@@ -22,42 +22,42 @@ const products: Product[] = [
     id: 2,
     name: "Corner Settee",
     description: "കോർണർ സെറ്റി – കോണുകൾ അലങ്കരിക്കുന്ന തനിപ്പാട്",
-    image: "/Corner_sofa_black.jpg",
+    image: "/royal-wood-gallery/Corner_sofa_black.jpg",
     category: "Living Room"
   },
   {
     id: 3,
     name: "Corner Settee",
     description: "കോർണർ സെറ്റി – കോണുകൾ അലങ്കരിക്കുന്ന തനിപ്പാട്",
-    image: "/corner_sofa_red.jpg",
+    image: "/royal-wood-gallery/corner_sofa_red.jpg",
     category: "Living Room"
   },
   {
     id: 4,
     name: "Single Seater Recliner",
     description: "റീക്ലൈനർ സിംഗിൾ സെറ്റി – സുഖപ്രദമായ വിശ്രമത്തിന്",
-    image: "/Recliner_settee.jpg",
+    image: "/royal-wood-gallery/Recliner_settee.jpg",
     category: "living Room"
   },
   {
     id: 5,
     name: "Single Seat Settee",
     description: "സിംഗിൾ സീറ്റ് സെറ്റി – സ്റ്റൈലിഷും കമ്പാക്റ്റുമായ ഇരിപ്പിടം",
-    image: "/Single_sofa.jpg",
+    image: "/royal-wood-gallery/Single_sofa.jpg",
     category: "Living Room"
   },
   {
     id: 6,
     name: "Wooden Swing",
     description: "വുഡൻ ഊഞ്ഞാൽ (Swing) – തനത് ശൈലിയിൽ സുഖകരമായ വിശ്രമമുറ",
-    image: "/Chair.jpg",
+    image: "/royal-wood-gallery/Chair.jpg",
     category: "SitOut"
   },
   {
     id: 7,
     name: "TV Stand",
     description: "പ്രീമിയം ടിവി സ്റ്റാൻഡ് – മനോഹരമായ ഡീസൈൻ, മികച്ച സൗകര്യം",
-    image: "/TV_stand.jpg",
+    image: "/royal-wood-gallery/TV_stand.jpg",
     category: "Main Hall and Living Room"
   },
 ];
@@ -68,7 +68,7 @@ const FurnitureGallery: React.FC = () => {
       {/* ✅ Full-width top image */}
       <div className="w-full h-full overflow-hidden">
         <img
-          src="/landscape.jpg" // Make sure this is in /public
+          src="/royal-wood-gallery/landscape.jpg" // Make sure this is in /public
           alt="Royal Wood Gallery"
           className="w-full h-full object-cover"
         />
