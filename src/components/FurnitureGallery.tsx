@@ -14,7 +14,7 @@ const products: Product[] = [
   id: 1,
   name: "Premium Corner Settee",
   description: "കട്ടിയുള്ള തടി ഉപയോഗിച്ച് നിർമ്മിച്ച സ്പേഷ്യസ് കോണർ സോഫാ, സുഖപ്രദമായ കുഷനുകളോടും കൃതിയായ കൈത്തരിപ്പണിയോടും കൂടെ",
-  image: "/royal-wood-gallery/corner_sofa.png",
+  image: "/corner_sofa.jpg",
   category: "Living Room"
 }
 ,
